@@ -19,8 +19,14 @@ module.exports = options => {
         title: content.title,
         displayName: content.displayName,
         thumbnail: content.thumbnail.url,
-        date: moment(parseInt(content.date)).fromNow(),
-        url: `https://ders.im/dokuman/${content.slug}`
+        date: moment(content.date).fromNow(),
+        url: `https://ders.im/dokuman/${content.slug}`,
+        publisher: `https://ders.im/dokuman/${content.userSlug}`,
+        keywords: content.keywords || '',
+        deepLink: {
+          document: `dersim://dersim/document/${content.slug}`,
+          publisher: `dersim://dersim/user/${content.userSlug}`,
+        },
       }))
       resolve(response)
     });
