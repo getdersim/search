@@ -4,14 +4,14 @@
 
 Ders.im'de binlerce ders dokümanı bulunmakta. Her bir ders dokümanı içerisinde binlerce karakter mevcut ve bu arama işlemini kendi uygulamanın içerisinde kullanabilirsin.
 
-## Kurulum
+**Kurulum**
 
 ```
 yarn add ders-im-search
 ```
 
 
-## Kullanım
+**Kullanım**
 
 [Ders.im](https://ders.im) algolia arama servisini kullanıyor, modülü kullanırken o parametreleri inceleyip ihtiyacınıza göre kullanabilirsiniz.
 
@@ -28,7 +28,7 @@ searchDocument({
   .catch(console.log)
 ```
 
-### Örnek Çıktı
+**Örnek Çıktı**
 
 ```js
 [
@@ -60,7 +60,7 @@ searchDocument({
 ]
 ```
 
-## Katkıda bulunma
+**Katkıda bulunma**
 
 - [ ] Eklediğiniz veya çıkarttığınız özelliğin yok ise testini yaz
 - [ ] Beni oku yazısına ürettiğiniz ürünün bilgisini ekle
