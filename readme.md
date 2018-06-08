@@ -38,7 +38,7 @@ searchDocument({
     thumbnail: '..',
     date: '4 ay önce',
     url: 'https://ders.im/dokuman/yapay-zekaya-giris-ders-notlari',
-    publisher: 'https://ders.im/dokuman/cagataycali',
+    publisher: 'https://ders.im/@cagataycali',
     keywords: 'Mühendislik,Bilgisayar Mühendisliği,Yapay Zeka',
     deepLink: {
       document: 'dersim://dersim/document/yapay-zekaya-giris-ders-notlari',
@@ -50,7 +50,7 @@ searchDocument({
     thumbnail: '...',
     date: '3 ay önce',
     url: 'https://ders.im/dokuman/yapay-zeka-yaz-okulu-kitabi',
-    publisher: 'https://ders.im/dokuman/raifberkaydincel',
+    publisher: 'https://ders.im/@raifberkaydincel',
     keywords: 'Mühendislik,Bilgisayar Mühendisliği,Yapay Zeka',
     deepLink: {
       document: 'dersim://dersim/document/yapay-zeka-yaz-okulu-kitabi',

@@ -21,7 +21,7 @@ module.exports = options => {
         thumbnail: content.thumbnail.url,
         date: moment(content.date).fromNow(),
         url: `https://ders.im/dokuman/${content.slug}`,
-        publisher: `https://ders.im/dokuman/${content.userSlug}`,
+        publisher: `https://ders.im/@${content.userSlug}`,
         keywords: content.keywords || '',
         deepLink: {
           document: `dersim://dersim/document/${content.slug}`,
