@@ -1,0 +1,33 @@
+{
+  "name": "ders-im-search",
+  "version": "1.0.0",
+  "description": "Ders.im ders notları projesinde arama gerçekleştirmeye yarayan modül",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/getdersim/search.git"
+  },
+  "keywords": [
+    "ders",
+    "notu",
+    "ders",
+    "notları",
+    "ders.im"
+  ],
+  "author": "Çağatay Çalı",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getdersim/search/issues"
+  },
+  "homepage": "https://github.com/getdersim/search#readme",
+  "dependencies": {
+    "algoliasearch": "^3.27.1",
+    "moment": "^2.22.2"
+  },
+  "devDependencies": {
+    "jest": "^23.1.0"
+  }
+}
