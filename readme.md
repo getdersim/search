@@ -62,6 +62,6 @@ searchDocument({
 
 **Katkıda bulunma**
 
-- [ ] Eklediğiniz veya çıkarttığınız özelliğin yok ise testini yaz
-- [ ] Beni oku yazısına ürettiğiniz ürünün bilgisini ekle
+- [ ] Eklediğin veya çıkarttığın özelliğin, yok ise testini yaz
+- [ ] Beni oku yazısına ürettiğin ürünün bilgisini ekle
 - [ ] Gönder gelsin
